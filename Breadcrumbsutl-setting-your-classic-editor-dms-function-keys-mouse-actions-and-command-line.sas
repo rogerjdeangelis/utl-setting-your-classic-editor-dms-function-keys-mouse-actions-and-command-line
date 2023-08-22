@@ -249,6 +249,62 @@ https://github.com/rogerjdeangelis/utl_performance_package_SAS_classic_editor
 https://github.com/rogerjdeangelis/utl_sas-classic-editor-point-and-shoot-a-proc-freq
 https://github.com/rogerjdeangelis/utl_sas_classic_editor
 
+    /*                                             _   _ _
+      ___ ___  _ __ ___  _ __ ___   __ _ _ __   __| | | (_)_ __   ___    _ __ ___   __ _  ___ _ __ ___  ___
+     / __/ _ \| `_ ` _ \| `_ ` _ \ / _` | `_ \ / _` | | | | `_ \ / _ \  | `_ ` _ \ / _` |/ __| `__/ _ \/ __|
+    | (_| (_) | | | | | | | | | | | (_| | | | | (_| | | | | | | |  __/  | | | | | | (_| | (__| | | (_) \__ \
+     \___\___/|_| |_| |_|_| |_| |_|\__,_|_| |_|\__,_| |_|_|_| |_|\___|  |_| |_| |_|\__,_|\___|_|  \___/|___/
+
+    */
+
+     cm         Hilite the blank line and subsequent block of code and the code will be commented out
+     xpad       on command line Remove DMS line padding and copy program to clipbrd
+     mish       sex age Highlight dataset and type mish sex age and for crosstab of missings" ;
+     unqh       sex age  distinct counts Usubjid must be in the datasets
+     _sv        pf1 or mmb Save timestamped version of the program in the c:/ver folder and save program in c:/utl
+     sqldesh    Hilite table and type alt and scroll button
+     sasbatch   Highlight code type sasbatch on command line
+     evlh       Hilite expression 2*
+     sumv       Hilite a column of numbers and an proc means will run
+     xlrh       Hilite a table and type xlr and table will open it in excel No need for pc acces to excel
+     sumr       Hilite row of numbers type sumr and the sum will appear in the log and macro variable __sumr
+     iota       A verical list sequential numbers"
+     cuth       Hilite a block of code and type cuth and mutiple spaces will be reduced to single spaces
+     parh       Hilite a line of code and type parh to test for unbalanced parens
+     xit        When exiting sas type xit and last program will open next time you start SAS
+     cntuh      Hilite table and count distinct usubjid and number of obs are in paste buffer
+     cliph      Hilite a line of  and macro variable _clip will contain the statement
+     cnth       sex age Hilite table and type cnth age sex and distinct counts of age sex cobinations in paste buffer
+     avgby      sex age Hilite table type avgby sex age for means by sex age also output dataset avgby
+     tail       Type tail and last 40 obs of last dataset in paste buffer and output window
+     tailh      Hilite table and type tailh and the last 40 obs will be in output window and in paste buffer
+     ls4        Type ls and a list of first 40 obs of last table in output window and paste buffer
+     lsh        Type lsh for list and output in paste buffer of hilited table
+     lsfh       Hilight table type lsfh for 40 obs formatted list and output in paste buffer
+     lsa        Ttpe lsal to list all obs from the last dataset
+     lsah       Type lsah for a list of all obs in output and in paste buffer of hilited table
+     doendh     Hilite block of macro code and match dos and ends
+     lsw        [dq]]age=14[dq] Use single and doubple quotes for chars, 40 obs  filter for  the _last_ table in pastebuffer and list
+     avgh       Hilite table and type avgh for proc means output and table avgh will be created
+     frqv       Hilite variable in _last_ table andn proc freq hiltred variable
+     cntv       Hilight variable in _last_ table and get count and distinct counts on variable
+     unvv       Hilite a variable from the _last_ table and proc unvariate will be run on that variable
+     unvh       proc univariate on hilighted dataset
+     rpth       Generate proc report code on hilighted dataset
+     dmp        Type dmp and middle observation of last dataset printed vertically
+     dmph       Type dmph middle observation of highlighted dataset printed vertically with type length and sample value
+     frq        sex age Type frq type sex for a crosstab frequency on sex*age for last datasetakes frq dataset
+     frqh       sex age Highlight dataset and type frqh sex age and  forfrequency on sex xage Also frqh dataset
+     prtwh      hilite and type prtwh "sex=s ingle quote F single quote " subset listing
+     debugh     Highlight macro and type debugh to debug the macro
+     con        Type con and contents of last dataset in outptut
+     conh       Highlight table and type conh on command line Results in output window
+     vu         Type vu for viewtable of last dataset created
+     vuh        Type vuh for viewtable of highlighted dataset
+     xlsh       Highlight table and type xlsh and the table  will appear in excel uses libname need pc acces;
+     keylist    Type keylist and a list og your function keys will be in the log
+     xpy        Type xpy roger for program banner with large font https://githubcom/rogerjdeangelis/utl_program_banners
+
 
 /*              _
   ___ _ __   __| |
